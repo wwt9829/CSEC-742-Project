@@ -11,6 +11,7 @@ RUN dpkg -i /tmp/bash_4.2+dfsg-0.1_amd64.deb
 COPY httpd.conf /usr/local/apache2/conf/httpd.conf
 COPY index.html /usr/local/apache2/htdocs/
 COPY toucan /usr/local/apache2/cgi-bin/
+RUN chmod +x /usr/local/apache2/cgi-bin/toucan
 
 # Hide the "flag"
 COPY toucan.jpg /usr/local/apache2/htdocs/T0UC4N.jpg
