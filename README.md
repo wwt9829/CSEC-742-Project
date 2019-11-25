@@ -12,6 +12,11 @@ Construct a vulnerable system for others to attack and configure a monitoring sy
 - Part 4: Writeups - Offensive and Defensive (11/29)
 - Part 5: Comments and feedback for classmates (12/9)
 
+## Videos
+- [RIT CSEC-742 Computer System Security - ADE 1 Exploitable](https://www.youtube.com/watch?v=9JE03HnkOBg)
+- RIT CSEC-742 Computer System Security - ADE 2 Monitor
+- [RIT CSEC-742 Computer System Security - ADE 3 Attack](https://www.youtube.com/watch?v=gx6EZFuSZZ8)
+
 ## Exploit Overview
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Shellshock-bug.png/1024px-Shellshock-bug.png" alt="Shellshock Logo" width="100"/>
 
